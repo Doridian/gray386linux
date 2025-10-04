@@ -55,9 +55,7 @@ How to build a gray386linux
 
 Tested build environments:
 
-- Fedora 40 with Nix installed.
-- NixOS 23.11.
-- Docker/podman container.
+- Docker/podman container - because gcc4.9stdEnv has been removed, this is only supported way how to build.
 
 **10.** [Install Nix](https://nixos.org/manual/nix/stable/installation/installing-binary.html#multi-user-installation)
 ----------------------------------------------------------------------------------------------------------------------

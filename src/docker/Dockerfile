@@ -1,7 +1,5 @@
-FROM nixos/nix
+FROM nixos/nix:2.20.0
 MAINTAINER Robin Hack <hack.robin@gmail.com>
-
-RUN nix-channel --update
 
 WORKDIR /build
 
