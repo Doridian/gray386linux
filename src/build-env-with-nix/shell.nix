@@ -1,4 +1,4 @@
-with import <nixpkgs> { };
+with import <nixpkgs-24.05> { };
 with pkgsi686Linux;
 
 let

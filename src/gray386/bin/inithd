@@ -1,0 +1,8 @@
+#!/bin/sh
+
+/bin/mount -t proc none /proc
+/bin/mount -t sysfs none /sys
+/bin/mount /dev/sda2 /mnt
+/bin/umount /proc
+/bin/umount /sys
+exec /sbin/switch_root /mnt /init

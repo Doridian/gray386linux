@@ -17,6 +17,5 @@ Linux for i386 machines
 EOF
 
 /bin/mount /dev/sda2 /mnt
-#/bin/switch_root /mnt
 
 exit 0
